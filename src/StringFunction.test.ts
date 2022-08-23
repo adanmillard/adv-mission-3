@@ -14,6 +14,7 @@ describe("Replacing special character strings", () => {
     { input: "hello world?", expected: "hello world" },
   ];
 
+  // eslint-disable-next-line array-callback-return
   testVariables.map((tv) => {
     it(`Replace special characters in ${tv.input}`, () => {
       const actual: string = stringReplacer(tv.input);
