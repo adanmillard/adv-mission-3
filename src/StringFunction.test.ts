@@ -12,7 +12,7 @@ describe("Replacing special character strings", () => {
     { input: ";hello?world!", expected: "hello world" },
     { input: "hello;world", expected: "hello world" },
     { input: "hello world?", expected: "hello world" },
-    { input: "hello world?", expected: "64" },
+    { input: "hello world?", expected: "hello world" },
   ];
 
   // eslint-disable-next-line array-callback-return
